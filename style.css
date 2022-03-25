@@ -1,0 +1,423 @@
+/*Page size and position*/
+body {
+  position: center;
+  margin: auto;
+  width: 75vw;
+  height: 100vh;
+  text-align: center;
+  background-color: #333;
+}
+
+main {
+  background-color:grey;
+  padding-bottom: 50px;
+  padding-top:30px;
+}
+
+/*Header Image*/
+.header-img{
+    width: 100%;
+    height: 20vh;
+    background: url(https://lh3.googleusercontent.com/pw/AM-JKLXtjego22gyjXWeCkZsIwQCNJs8lyuacUINK4DO2NjmrASzlwy03svZxCr7YjxfK0ZvrT6x66JvSe1kfkkkthiRFtV7e_cbFmSkX7K1_kEN4gbgSWl9JyzyXD81J8hs4iMGNKnr_KBTaMWyCCP2W9GW=w1858-h180-no?authuser=0);
+    background-size: contain;
+    position: relative;
+    border: 2px solid #39ff14;
+}
+
+/*These are the settings of the navbar box*/
+.navcontainer{
+    width: auto;
+    margin-top: 14.5vh;
+    position: absolute;
+    background-color: black;
+    border: 1px solid #39ff14;
+}
+
+.nav1{
+    font-family: "Lucida Console", serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    overflow: hidden;
+}
+
+
+/*Look into how this works*/
+.nav1 a {
+    float: left;
+    color: #39ff14;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /*This changes the navbar when you hover over each link*/
+  .nav1 a:hover {
+    background-color: #39ff14;
+    color: black;
+  }
+
+/*------------------------Text Alignments & Titles------------------------------------------------*/
+
+.text-alignment-center{
+  text-align: center;
+  margin-inline: 20%;
+}
+
+.text-alignment-left{
+    text-align: left;
+    /*display: inline-block*/
+    margin-inline: 15%;
+}
+
+.title{
+  font-size: 80px;
+  font-family: "Brush Script MT", cursive;
+  color:black;
+}
+
+.subtitle{
+  font-size:60px;
+  font-family:"Helvetica";
+}
+
+.heading{
+  font-size: 40px;
+  font-family: "Brush Script MT", cursive;
+}
+/*-------------------------------------MENU STYLE------------------------*/
+.title-menu{
+  font-size: 80px;
+  font-family: "Brush Script MT", cursive;
+  color:rgb(255, 208, 0);
+}
+
+.heading-menu{
+  font-size: 70px;
+  font-family: "Brush Script MT", cursive; 
+  padding-top:30px;
+  padding-bottom:30px;
+  margin:0;
+}
+
+.subheading-menu{
+  font-size:30px;
+  font-family:"Comic Sans MS"; 
+  padding-top:10px;
+  padding-bottom:10px;
+  margin:0;
+}
+
+.descript{
+  font-size:16px;
+  font-family:"Helvetica";
+  padding-top:0px;
+  padding-bottom:20px;
+  margin:0;
+}
+
+.item{
+  font-size:20px;
+  font-family:"Helvetica";
+  text-align:left;
+  font-weight:75;
+  padding-left:25%;
+  padding-top:2px;
+  margin:0;
+}
+
+.item2{
+  font-size:20px;
+  font-family:"Helvetica";
+  font-weight:75;
+  padding-top:6px;
+  margin:0;
+}
+
+.item-descript{
+  font-size:14px;
+  font-family:"Helvetica";
+  text-align:left;
+  padding-left:26%;
+  padding-bottom:2px;
+  margin:0;
+}
+
+.item2-descript{
+  font-size:16px;
+  font-family:"Helvetica";
+  padding-bottom:2px;
+  margin:0;
+}
+
+.price{
+  font-size:20px;
+  font-family:"Helvetica";
+  float:right;
+  font-weight:75;
+  padding-right:35%;
+  margin:0;
+}
+
+.row {
+  display:flex;
+}
+
+.column{
+  flex:50%;
+}
+
+.col-item{
+  font-size:20px;
+  font-family:"Helvetica";
+  text-align:left;
+  font-weight:75;
+  padding-left:10%;
+  padding-top:2px;
+  margin:0;
+}
+
+.col-item-descript{
+  font-size:14px;
+  font-family:"Helvetica";
+  text-align:left;
+  padding-left:11%;
+  padding-right:10%;
+  padding-bottom:2px;
+  margin:0;
+}
+
+.col-price{
+  font-size:20px;
+  font-family:"Helvetica";
+  float:right;
+  font-weight:75;
+  padding-right:10%;
+  margin:0;
+}
+
+.tri-column{
+  flex:50%;
+}
+
+.tri-col-item{
+  font-size:30px;
+  font-family:"Helvetica";
+  font-weight:75;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin:0;
+}
+
+.tri-col-item-descript{
+  font-size:17px;
+  font-family:"Helvetica";
+  text-align: center;
+  padding-left:15%;
+  padding-right:15%;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin:0;
+}
+.tri-col-price{
+  font-size:25px;
+  font-family:"Helvetica";
+  font-weight:75;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin:0;
+}
+
+.boxed{
+  font-size:25px;
+  font-family:"Comic Sans MS";
+  border:#420000 5px;
+  border-radius:1px;
+  border-style:double;
+  margin-left: 35%;
+  margin-right:35%;
+}
+
+hr{
+  border:2px dotted #333;
+  width:70%;
+  margin-top:50px;
+  margin-bottom:10px;
+}
+/*-----------------------------FOOTER-------------------------------------------*/
+footer{
+  background-color: #333;
+  padding-bottom:40px;
+}
+
+.footer-row{
+  display:flex;
+  margin-bottom:20px;
+}
+
+/*Social Media*/
+    /* Style all font awesome icons */
+
+/*    
+.social-container-foot{
+  width:auto;
+  margin-left:auto;
+  padding-right:5%;
+  flex-direction:row;
+}
+
+.fa{
+  font-size: 30px;
+  width: 50px;
+  float:right;
+  text-align: center;
+  text-decoration: none;
+}
+
+    /* Add a hover effect if you want */
+    /*
+.fa:hover{
+  opacity: 0.7;
+}*/
+
+    /* Facebook */
+    /*
+.fa-facebook-f{
+  background: transparent;
+  color: white;
+}*/
+
+    /* Twitter */
+    /*
+.fa-twitter{
+  background: transparent;
+  color: white;
+} */
+
+    /*E-mail*/
+    /*
+.fa-envelope{
+  background: transparent;
+  color: white;
+} */
+  /*End Social Media*/
+
+/*Footer Image*/
+.footer-img{
+  margin-left:28vw;
+  margin-top:5px;
+  align-items:center;
+}
+
+/*Footer Navigation*/
+.footer-navcontainer{
+  width:auto;
+  position:absolute;
+  padding-bottom:40px;
+}
+
+.footer-nav{
+  float:left;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  overflow:hidden;
+}
+    /*Navbar Text settings*/ 
+.footer-nav a {
+  font-family:"Lato",sans-serif;
+  color:white;
+  background-color: transparent;
+  float:left;
+  text-align:center;
+  padding:14px 10px;
+  text-decoration:none;
+  font-size:17px;
+} 
+  /*This changes the navbar when you hover over each link*/
+.footer-nav a:hover {
+  color:rgb(255, 208, 0);
+}
+
+.footer-nav .active-foot{
+  color: rgb(255, 208, 0);
+}
+
+.foot-col{
+  flex:50%;
+}
+
+.foot-col-subhead{
+  font-size:20px;
+  font-family:"Helvetica";
+  font-weight:75;
+  padding-top:10px;
+  margin:0;
+}
+
+.foot-col-text{
+  font-size:17px;
+  font-family:"Helvetica";
+  text-align: center;
+  padding-left:15%;
+  padding-right:15%;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin:0;
+}
+
+/*----------------------------- MORE INFORMATION PAGE-------------------------------------------*/
+.moinfo-img{
+  float:right;
+  align-items: right;
+  margin-right:2%
+}
+
+/*----------------------------- SLIDESHOW 1-------------------------------------------*/
+/* SLIDESHOW 1 */
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery_container { 
+  height: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  font-family: sans-serif; 
+}
+
+.gallery {
+  background: grey;
+}
+
+.gallery-cell {
+  width: 75%;
+  height: 500px;
+  margin-right: 10px; 
+  background: grey; 
+  align-items: center;
+  justify-content: center;
+  counter-increment: gallery-cell;
+}
+/*
+.gallery-cell-image {
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}   */
+
+/* fade in lazy loaded image */
+.gallery-cell-image.flickity-lazyloaded,
+.gallery-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
